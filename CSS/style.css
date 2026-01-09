@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    font-family: 'inter' , sans-serif;
+    font-family: 'inter', sans-serif;
     background-color: #ffffff;
 }
 
@@ -296,7 +296,7 @@ header {
 /* Second Brain Section */
 .second-brain {
     padding: 80px 20px;
-    
+
 }
 
 .second-brain-container {
@@ -431,7 +431,7 @@ header {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-   
+
     margin-bottom: 20px;
 }
 
@@ -519,14 +519,12 @@ footer {
     color: #ffffff;
 }
 
-/* Footer Divider */
 .footer-divider {
     border: none;
     border-top: 1px solid gray;
     margin: 30px 0;
 }
 
-/* Footer Bottom Section */
 .footer-bottom {
     text-align: center;
 }
