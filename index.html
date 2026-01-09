@@ -4,53 +4,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="CSS/style.css">
     <title>Knowledge-Vault</title>
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 
-<body class="inter-font">
+<body>
+    <!-- Header -->
     <header>
-        <nav>
-            <div><img src="/assets/logo-navbar.png" alt=""></div>
-            <div>
-                <ul>
-                    <li><a href="">Features</a></li>
-                    <li><a href="">How It Works</a></li>
-                    <li><a href="">Why It's Different</a></li>
-                </ul>
+        <nav class="navbar">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="./assets/logo-navbar.png" alt="Knowledge Vault Logo">
             </div>
+            <!-- Navigation Menu -->
+            <ul class="nav-menu">
+                <li><a href="">Features</a></li>
+                <li><a href="">How It Works</a></li>
+                <li><a href="">Why It's Different</a></li>
+            </ul>
 
-            <div>
-                <button>Get Early Access</button>
+            <div class="nav-button">
+                <button class="btn-primary">Get Early Access</button>
             </div>
-
         </nav>
-
-
-
-
     </header>
 
 
 
     <main>
-        <section class="hero-section">
-            <div>
 
+        <!-- Section: Banner -->
+        <section class="banner">
+
+            <img src="./assets/hero-bg.png" alt="Hero Background" class="banner-bg-image">
+
+
+            <div class="banner-overlay"></div>
+
+
+            <div class="banner-content">
+
+                <div class="banner-tag">
+                    <span>
+                        <i class="fa-regular fa-circle-dot"></i>
+                        Early Access Now Open
+                    </span>
+                </div>
+
+
+                <h1 class="banner-heading">
+                    Structured Thinking,<br>
+                    <span class="banner-heading-highlight">Not Just Note-Taking.</span>
+                </h1>
+
+
+                <p class="banner-description">
+                    A private place to save notes, links, and capture moments — designed to help you think clearly,
+                    connect ideas, and turn learning into long-term knowledge.
+                </p>
+
+                <!-- Buttons -->
+                <div class="banner-buttons">
+                    <button class="btn-primary">
+                        <span>Start Building Your Vault</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                    <button class="btn-secondary">
+                        <i class="fa-solid fa-play"></i>
+                        See How It Works
+                    </button>
+                </div>
             </div>
-
         </section>
 
 
+
+        <!-- Section: Notes -->
+        <section class="notes">
+            <div class="notes-container">
+
+                <div class="notes-header">
+                    <h2 class="notes-title">Notes Don't Fail, Structure Does.</h2>
+                    <p class="notes-subtitle">You're not bad at learning. Your tools just weren't built for how
+                        knowledge actually works.</p>
+                </div>
+
+                <!-- Cards section -->
+                <div class="notes-cards">
+                    <!-- Card 1 -->
+                    <div class="note-card">
+                        <div class="note-icon">
+                            <i class="fa-solid fa-layer-group"></i>
+                        </div>
+                        <h3 class="note-title">Scattered Notes</h3>
+                        <p class="note-description">Your ideas live in 10 different apps, none of them connected.</p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="note-card">
+                        <div class="note-icon">
+                            <i class="fa-solid fa-bookmark"></i>
+                        </div>
+                        <h3 class="note-title">Bookmark Overload</h3>
+                        <p class="note-description">Hundreds of saved links you'll never revisit or remember.</p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="note-card">
+                        <div class="note-icon">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <h3 class="note-title">No Idea Connections</h3>
+                        <p class="note-description">Insights stay isolated, never building into bigger understanding.
+                        </p>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="note-card">
+                        <div class="note-icon">
+                            <i class="fa-solid fa-circle-info"></i>
+                        </div>
+                        <h3 class="note-title">Forgetting What You Learned</h3>
+                        <p class="note-description">Knowledge fades because there's no system to retain it.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
-
-    <footer></footer>
 
 
 </body>
